@@ -18,9 +18,9 @@ What does it have? [Work In Progress]
 - API's with JOIN across tables
 
 ####What Next?
-
-#####Automate the process of-
+Automate the process of-
 
 - Creating tables
 - Inserting values
 - APIs as per customization from a dashboard
+- API's with JOIN across tables

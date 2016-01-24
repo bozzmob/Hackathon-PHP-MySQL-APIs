@@ -13,6 +13,7 @@ PRIMARY KEY ( userid )
 );
 
 PHP query-
+
 $sql = "CREATE TABLE users\n"
     . "(\n"
     . "userid int,\n"
