@@ -2,7 +2,7 @@
 
 This is a boilerplate project(not really ;) ) containing most frequently used APIs in most hackathons.
 
-What does it have?
+What does it have? [Work In Progress]
 
 ####DB commands
 
@@ -16,3 +16,11 @@ What does it have?
 - A Transaction Success or Failure - boolean response API
 - A JSON array response API(most helpful)
 - API's with JOIN across tables
+
+####What Next?
+
+#####Automate the process of-
+
+- Creating tables
+- Inserting values
+- APIs as per customization from a dashboard

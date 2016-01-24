@@ -1,3 +1,5 @@
+Database query-
+
 CREATE TABLE users(
 userid int,
 FirstName varchar( 255 ) NOT NULL ,
@@ -10,6 +12,7 @@ created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ,
 PRIMARY KEY ( userid )
 );
 
+PHP query-
 $sql = "CREATE TABLE users\n"
     . "(\n"
     . "userid int,\n"
