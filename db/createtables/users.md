@@ -2,10 +2,10 @@ Database query-
 
 CREATE TABLE users(
 userid int AUTO_INCREMENT,
-firstName varchar( 255 ) NOT NULL ,
-lastName varchar( 255 ) ,
-mobileNumber varchar( 255 ) ,
-emailId varchar( 255 ) NOT NULL UNIQUE ,
+firstname varchar( 255 ) NOT NULL ,
+lastname varchar( 255 ) ,
+mobilenumber varchar( 255 ) ,
+emailid varchar( 255 ) NOT NULL UNIQUE ,
 encrypted_password varchar( 255 ) NOT NULL ,
 city varchar( 255 ) ,
 created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ,
@@ -17,10 +17,10 @@ PHP query-
 
 $sql = "CREATE TABLE users(\n"
     . "userid int AUTO_INCREMENT,\n"
-    . "firstName varchar( 255 ) NOT NULL ,\n"
-    . "lastName varchar( 255 ) ,\n"
-    . "mobileNumber varchar( 255 ) ,\n"
-    . "emailId varchar( 255 ) NOT NULL UNIQUE ,\n"
+    . "firstname varchar( 255 ) NOT NULL ,\n"
+    . "lastname varchar( 255 ) ,\n"
+    . "mobilenumber varchar( 255 ) ,\n"
+    . "emailid varchar( 255 ) NOT NULL UNIQUE ,\n"
     . "encrypted_password varchar( 255 ) NOT NULL ,\n"
     . "city varchar( 255 ) ,\n"
     . "created_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ,\n"
